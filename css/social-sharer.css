@@ -151,17 +151,17 @@ main {
 }
 
 .icon.facebook {
-    background: url("/images/facebook.svg");
+    background: url("../images/facebook.svg");
 }
 
 
 .icon.twitter {
-    background: url("/images/twitter.svg");
+    background: url("../images/twitter.svg");
 }
 
 
 .icon.google-plus {
-    background: url("/images/google-plus.svg");
+    background: url("../images/google-plus.svg");
 }
 
 @media (max-width: 767px) {
