@@ -1,4 +1,6 @@
-* {
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -38,14 +40,61 @@ strong, b {
     font-size: 120%;
 }
 
-.quote {
+main {
     margin: 2em auto;
-    border-top: 1px solid #eee;
+}
+
+.quote {
+    border-top: 1x solid #eee;
     border-bottom: 1px solid #eee;
     max-width: 768px;
+    margin: 0 auto;
     text-align: center;
 }
 
 .quote p {
-    padding: 0 1.5em
+    padding: 0 1.5em;
+}
+
+.content {
+    max-width: 600px;
+    margin: 2em auto 0;
+    font-size: 0;
+}
+
+.content article {
+    font-size: 16px;
+}
+
+h2 {
+    font-weight: 100;
+    margin: 0;
+    display: inline-block;
+    min-width: 165px;
+}
+
+code {
+    display: inline-block;
+    vertical-align: top;
+    background: #eee;
+    padding: 0.25em;
+    font-size: 14px;
+    color: #666;
+    border-radius: 3px;
+    margin-top: 8px;
+}
+
+.facebook h2,
+.facebook code span {
+    color: #3b5998;
+}
+
+.twitter h2,
+.twitter code span {
+    color: #55ACEE;
+}
+
+.google-plus h2,
+.google-plus code span {
+    color: #dd4b39;
 }
