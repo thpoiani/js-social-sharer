@@ -54,6 +54,14 @@ strong, b {
     font-size: 120%;
 }
 
+iframe {
+    border: 0;
+}
+
+li {
+    text-align: left;
+}
+
 .title {
     color: #8058A5;
     margin: 0;
@@ -66,11 +74,11 @@ strong, b {
     min-width: 135px;
 }
 
-header {
+header, footer {
     background: #C883FF;
 }
 
-.header {
+.header, .information {
     text-align: center;
     margin: 0 auto;
     padding: 3em 0;
@@ -82,6 +90,14 @@ header {
     margin: 0 auto;
     padding: 0;
     max-width: 320px;
+}
+
+.information {
+    color: #fff;
+}
+
+.information a {
+    color: #8058A5;
 }
 
 main {
@@ -122,13 +138,14 @@ main {
 }
 
 .social {
+    text-align: center;
     margin: 1em auto;
 }
 
 .icon {
   display: inline-block;
-  width: 90px;
-  height: 90px;
+  width: 60px;
+  height: 60px;
   text-indent: -999em;
   border-bottom: none;
 }
