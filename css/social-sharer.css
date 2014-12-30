@@ -1,14 +1,14 @@
-*, *:before, *:after {
+* {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
     color: #373737;
     font-weight: 100;
     font-size: 24px;
+    font-family: 'Roboto', sans-serif;
 }
 
 p {
@@ -33,9 +33,19 @@ code {
     color: #666;
     border-radius: 3px;
     margin-top: 8px;
-
+    word-break: break-all;
     word-wrap: break-word;
-    word-break: break-word;
+}
+
+pre {
+    word-break: break-all;
+    word-wrap: break-word;
+    font-size: 0;
+    margin: 20px auto;
+}
+
+pre code {
+    text-align: left;
 }
 
 strong, b {
@@ -111,15 +121,6 @@ main {
     color: #dd4b39;
 }
 
-pre {
-    white-space: pre-wrap;
-}
-
-pre code {
-    text-align: left;
-    margin: 0;
-}
-
 .social {
     margin: 1em auto;
 }
@@ -144,4 +145,10 @@ pre code {
 
 .icon.google-plus {
     background: url("/images/google-plus.svg");
+}
+
+@media (max-width: 767px) {
+    .hidden-phone {
+        display: none;
+    }
 }
