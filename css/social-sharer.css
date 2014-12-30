@@ -119,3 +119,29 @@ pre code {
     text-align: left;
     margin: 0;
 }
+
+.social {
+    margin: 1em auto;
+}
+
+.icon {
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  text-indent: -999em;
+  border-bottom: none;
+}
+
+.icon.facebook {
+    background: url("/images/facebook.svg");
+}
+
+
+.icon.twitter {
+    background: url("/images/twitter.svg");
+}
+
+
+.icon.google-plus {
+    background: url("/images/google-plus.svg");
+}
