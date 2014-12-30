@@ -99,17 +99,23 @@ main {
     padding: 0 1em;
 }
 
-.facebook .subtitle,
-.facebook code span {
+.facebook {
     color: #3b5998;
 }
 
-.twitter .subtitle,
-.twitter code span {
+.twitter {
     color: #55ACEE;
 }
 
-.google-plus .subtitle,
-.google-plus code span {
+.google-plus {
     color: #dd4b39;
+}
+
+pre {
+    white-space: pre-wrap;
+}
+
+pre code {
+    text-align: left;
+    margin: 0;
 }
