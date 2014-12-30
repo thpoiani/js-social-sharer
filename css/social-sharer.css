@@ -11,33 +11,64 @@ body {
     font-size: 24px;
 }
 
-header {
-    background: #C883FF;
+p {
+    padding: 0 1.5em;
 }
 
-.header {
-    text-align: center;
-    padding: 3em 0;
-    max-width: 768px;
-    margin: 0 auto;
+a {
+    text-decoration: none;
+    border-bottom: 1px solid #8058A5;
 }
 
-h1 {
+h1, h2, h3 {
     font-weight: 100;
-    color: #8058A5;
-    margin: 0;
 }
 
-.base {
-    width: 320px;
-    margin: 0 auto;
-    color: #fff;
+code {
+    display: inline-block;
+    vertical-align: top;
+    background: #eee;
+    padding: 0.25em;
+    font-size: 14px;
+    color: #666;
+    border-radius: 3px;
+    margin-top: 8px;
 }
 
 strong, b {
     font-weight: 100;
     color: #8058A5;
     font-size: 120%;
+}
+
+.title {
+    color: #8058A5;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 1.5em;
+    margin: 0;
+    display: inline-block;
+    min-width: 165px;
+}
+
+header {
+    background: #C883FF;
+}
+
+.header {
+    text-align: center;
+    margin: 0 auto;
+    padding: 3em 0;
+    max-width: 768px;
+}
+
+.base {
+    color: #fff;
+    margin: 0 auto;
+    padding: 0;
+    width: 320px;
 }
 
 main {
@@ -52,49 +83,28 @@ main {
     text-align: center;
 }
 
-.quote p {
-    padding: 0 1.5em;
-}
-
 .content {
     max-width: 600px;
     margin: 2em auto 0;
-    font-size: 0;
+    text-align: center;
 }
 
 .content article {
     font-size: 16px;
+    text-align: left;
 }
 
-h2 {
-    font-weight: 100;
-    margin: 0;
-    display: inline-block;
-    min-width: 165px;
-}
-
-code {
-    display: inline-block;
-    vertical-align: top;
-    background: #eee;
-    padding: 0.25em;
-    font-size: 14px;
-    color: #666;
-    border-radius: 3px;
-    margin-top: 8px;
-}
-
-.facebook h2,
+.facebook .subtitle,
 .facebook code span {
     color: #3b5998;
 }
 
-.twitter h2,
+.twitter .subtitle,
 .twitter code span {
     color: #55ACEE;
 }
 
-.google-plus h2,
+.google-plus .subtitle,
 .google-plus code span {
     color: #dd4b39;
 }
