@@ -5,17 +5,47 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #373737;
+    font-weight: 100;
+    font-size: 24px;
 }
 
 header {
+    background: #C883FF;
+}
+
+.header {
     text-align: center;
+    padding: 3em 0;
+    max-width: 768px;
+    margin: 0 auto;
 }
 
 h1 {
     font-weight: 100;
-    color: #666;
+    color: #8058A5;
     margin: 0;
 }
 
+.base {
+    width: 320px;
+    margin: 0 auto;
+    color: #fff;
+}
 
+strong, b {
+    font-weight: 100;
+    color: #8058A5;
+    font-size: 120%;
+}
 
+.quote {
+    margin: 2em auto;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    max-width: 768px;
+    text-align: center;
+}
+
+.quote p {
+    padding: 0 1.5em
+}
