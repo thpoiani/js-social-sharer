@@ -1,0 +1,19 @@
+{
+  "name": "js-social-sharer",
+  "version": "0.0.0",
+  "authors": [
+    "Thiago Henrique Poiani <thpoiani@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "html5shiv": "~3.7.2",
+    "normalize.css": "~3.0.2"
+  }
+}
