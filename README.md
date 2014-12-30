@@ -24,12 +24,9 @@ These urls will be used :)
 ## Usage
 
 ```html
-<a href="http://github.com/thpoiani" data-sharer="facebook">FB Share</a>
-
-<a href="http://github.com/thpoiani" data-sharer="twitter">Tweet</a>
-
-<a href="http://github.com/thpoiani" data-sharer="google-plus">GPlus Share</a>
-
+<a href="[URL]" data-sharer="facebook">FB Share</a>
+<a href="[URL]" data-sharer="twitter">Tweet</a>
+<a href="[URL]" data-sharer="google-plus">GPlus Share</a>
 
 <script src="/js/js-social-sharer.js"></script>
 ```
